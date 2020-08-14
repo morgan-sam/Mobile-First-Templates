@@ -88,3 +88,8 @@
 	background: url('https://source.unsplash.com/random?desk');
 	background-position: center;
 }
+
+.section-three {
+	background: url('https://source.unsplash.com/random?wallpaper');
+	background-size: cover;
+}
