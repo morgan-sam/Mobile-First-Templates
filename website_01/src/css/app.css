@@ -10,6 +10,8 @@
 	top: 0;
 	height: 100vh;
 	width: 100vw;
+	display: flex;
+	flex-direction: column;
 }
 
 .main-title-container {
@@ -47,4 +49,19 @@
 	width: 100vw;
 	padding: 4rem;
 	box-sizing: border-box;
+}
+
+.people-grid {
+	display: grid;
+	width: 100vw;
+	height: 100%;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+
+.people-photo {
+	width: 100%;
+	height: 100%;
+	background: url('https://source.unsplash.com/random?face');
+	background-position: center;
 }

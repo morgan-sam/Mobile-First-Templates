@@ -9,6 +9,12 @@ const App = () => {
 				<div className="main-title-container">
 					<h1 className="main-title">Lorem ipsum dolor sit amet.</h1>
 				</div>
+				<div className="people-grid">
+					<div className={'people-photo'} />
+					<div className={'people-photo'} />
+					<div className={'people-photo'} />
+					<div className={'people-photo'} />
+				</div>
 			</div>
 			<div className="section section-two">
 				<div className="section-two-title-container">
