@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import TopNavigation from './components/TopNavigation.jsx';
 
 const App = () => {
 	return (
 		<div>
 			<div className="section">
+				<TopNavigation />
 				<div className="main-title-container">
 					<h1 className="main-title">Lorem ipsum dolor sit amet.</h1>
 				</div>
