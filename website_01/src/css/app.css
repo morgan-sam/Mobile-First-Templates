@@ -11,6 +11,7 @@
 	height: 100vh;
 	width: 100vw;
 	background-size: cover;
+	background: url('https://source.unsplash.com/random/411x823/?architecture,minimal');
 }
 
 .main-title-container {
@@ -26,23 +27,6 @@
 .main-title {
 	text-align: center;
 	font-size: 3rem;
-	color: black;
-}
-
-.background-container {
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100vh;
-	width: 100vw;
-	overflow: hidden;
-}
-
-.background {
-	position: absolute;
-	left: 0;
-	top: 0;
-	background-size: cover;
-	z-index: -10;
-	height: 100vh;
+	color: white;
+	mix-blend-mode: difference;
 }
