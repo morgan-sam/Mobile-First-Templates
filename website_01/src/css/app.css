@@ -29,12 +29,20 @@
 	color: black;
 }
 
-.background {
+.background-container {
 	position: absolute;
 	left: 0;
 	top: 0;
 	height: 100vh;
 	width: 100vw;
+	overflow: hidden;
+}
+
+.background {
+	position: absolute;
+	left: 0;
+	top: 0;
 	background-size: cover;
 	z-index: -10;
+	height: 100vh;
 }

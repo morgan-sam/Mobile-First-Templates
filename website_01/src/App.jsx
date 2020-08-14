@@ -41,7 +41,9 @@ const App = () => {
 					Lorem ipsum dolor sit amet.
 				</h1>
 			</div>
-			<img className="background" src={img} />
+			<div className="background-container">
+				<img className="background" src={img} />
+			</div>
 		</div>
 	);
 };
