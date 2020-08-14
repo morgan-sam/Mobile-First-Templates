@@ -13,6 +13,9 @@ const useStyles = makeStyles((theme) => ({
 	},
 	title: {
 		flexGrow: 1
+	},
+	menuButton: {
+		// margin: '0px'
 	}
 }));
 
@@ -23,19 +26,19 @@ export default function ButtonAppBar() {
 		<div className={classes.root}>
 			<AppBar position="static">
 				<Toolbar>
-					<Box display="flex" flexGrow={1}>
+					<Box display="flex" justifyContent="space-between" alignItems="center" width="100%">
 						<IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
 							<MenuIcon />
 						</IconButton>
+						<IconButton
+							edge="end"
+							className={classes.menuButton}
+							color="inherit"
+							aria-label="ShoppingBasket"
+						>
+							<ShoppingBasket />
+						</IconButton>
 					</Box>
-					<ShoppingBasket
-						edge="end"
-						className={classes.menuButton}
-						color="inherit"
-						aria-label="ShoppingBasket"
-					>
-						<MenuIcon />
-					</ShoppingBasket>
 				</Toolbar>
 			</AppBar>
 		</div>
