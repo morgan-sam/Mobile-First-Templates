@@ -17,10 +17,13 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 20vh;
+	height: auto;
+	width: 100vw;
+	padding: 4rem;
+	box-sizing: border-box;
 }
 
 .main-title {
 	text-align: center;
-	font-size: 4rem;
+	font-size: 3rem;
 }
