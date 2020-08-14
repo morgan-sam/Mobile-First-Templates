@@ -10,8 +10,8 @@
 	top: 0;
 	height: 100vh;
 	width: 100vw;
+	background: url('https://source.unsplash.com/random/?architecture,minimal');
 	background-size: cover;
-	background: url('https://source.unsplash.com/random/411x823/?architecture,minimal');
 }
 
 .main-title-container {
