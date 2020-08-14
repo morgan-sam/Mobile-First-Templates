@@ -90,6 +90,7 @@
 }
 
 .section-three {
-	background: url('https://source.unsplash.com/random?wallpaper');
+	color: white;
 	background-size: cover;
+	background-color: black;
 }
