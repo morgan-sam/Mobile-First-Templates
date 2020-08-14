@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import TopNavigation from './components/TopNavigation.jsx';
+import TunnelBackground from './components/TunnelBackground.jsx';
 
 const App = () => {
 	return (
@@ -25,6 +26,7 @@ const App = () => {
 				<div className="main-title-container">
 					<h1 className="main-title">Lorem ipsum dolor sit amet.</h1>
 				</div>
+				<TunnelBackground />
 			</div>
 		</div>
 	);
