@@ -10,8 +10,6 @@
 	top: 0;
 	height: 100vh;
 	width: 100vw;
-	background: url('https://source.unsplash.com/random/?architecture,minimal');
-	background-size: cover;
 }
 
 .main-title-container {
@@ -27,6 +25,26 @@
 .main-title {
 	text-align: center;
 	font-size: 3rem;
+}
+
+.section-two {
+	background: url('https://source.unsplash.com/random/?architecture,minimal');
+	background-size: cover;
+}
+
+.section-two-title {
 	color: white;
+	font-size: 3rem;
 	mix-blend-mode: difference;
+}
+
+.section-two-title-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: auto;
+	height: 100vh;
+	width: 100vw;
+	padding: 4rem;
+	box-sizing: border-box;
 }
