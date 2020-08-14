@@ -5,6 +5,7 @@ const App = () => {
 	const colorThief = new ColorThief();
 	const [ img, setImg ] = useState(null);
 	const [ dominantColor, setDominantColor ] = useState(null);
+	const [ textColor, setTextColor ] = useState(null);
 
 	useEffect(() => {
 		const getImgColor = async () => {
@@ -23,12 +24,22 @@ const App = () => {
 		getImgColor();
 	}, []);
 
-	console.log(dominantColor);
+	useEffect(
+		() => {
+			if (dominantColor != null) {
+				const [ red, green, blue ] = dominantColor;
+				setTextColor(red * 0.299 + green * 0.587 + blue * 0.114 > 186 ? '#000000' : '#ffffff');
+			}
+		},
+		[ dominantColor ]
+	);
 
 	return (
 		<div className="app">
 			<div className="main-title-container">
-				<h1 className="main-title">Lorem ipsum dolor sit amet.</h1>
+				<h1 className="main-title" style={{ color: textColor }}>
+					Lorem ipsum dolor sit amet.
+				</h1>
 			</div>
 			<img className="background" src={img} />
 		</div>
