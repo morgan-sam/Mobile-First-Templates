@@ -23,6 +23,7 @@
 	width: 100vw;
 	padding: 4rem;
 	box-sizing: border-box;
+	z-index: 10;
 }
 
 .main-title {
