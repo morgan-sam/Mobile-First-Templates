@@ -8,6 +8,7 @@
 	perspective: 50px;
 	overflow: hidden;
 	transition: 0.4s ease-out;
+	animation: rotate infinite 1s alternate;
 }
 
 .tunnel-box {
@@ -18,7 +19,13 @@
 	border-radius: 50px;
 }
 
-.tunnel-container:active {
-	perspective: 10rem;
-	transform: rotate3d(1, 1, 1, 45deg);
+@keyframes rotate {
+	0% {
+		perspective: 10rem;
+		transform: rotate3d(1, 1, 1, 0deg);
+	}
+	100% {
+		perspective: 10rem;
+		transform: rotate3d(1, 1, 1, 45deg);
+	}
 }

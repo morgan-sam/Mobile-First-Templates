@@ -93,4 +93,5 @@
 	color: white;
 	background-size: cover;
 	background-color: black;
+	overflow: hidden;
 }
