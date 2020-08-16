@@ -7,6 +7,7 @@
 	align-items: center;
 	justify-content: center;
 	position: absolute;
+	animation: tunnel-sway ease-in-out 5s infinite alternate;
 }
 
 .tunnel-container {
@@ -61,5 +62,14 @@
 		opacity: 0;
 		perspective: 10rem;
 		transform: scale(10);
+	}
+}
+
+@keyframes tunnel-sway {
+	0% {
+		transform: translateX(-5rem) rotate3d(1, 1, 1, 45deg) rotate(-45deg);
+	}
+	100% {
+		transform: translateX(5rem) rotate3d(1, 1, 1, -45deg) rotate(45deg);
 	}
 }
