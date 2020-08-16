@@ -43,7 +43,7 @@
 	width: 10rem;
 	border: 2px solid;
 	position: absolute;
-	border-radius: 50px;
+	border-radius: 100%;
 }
 
 @keyframes scale {
