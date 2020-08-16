@@ -1,15 +1,21 @@
 .tunnel-parent {
-	position: absolute;
+	top: 0;
+	left: 0;
 	height: 100vh;
 	width: 100vw;
 	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
 }
 
 .tunnel-container {
+	position: absolute;
+	top: 0;
+	left: 0;
 	height: 100vh;
 	width: 100vw;
 	display: flex;
-	position: relative;
 	align-items: center;
 	justify-content: center;
 	perspective: 50px;
@@ -18,17 +24,17 @@
 }
 
 .tunnel-container:nth-child(1) {
-	animation: scale infinite 5s alternate;
+	animation: scale linear infinite 5s normal;
 }
 .tunnel-container:nth-child(2) {
-	animation: scale infinite 5s alternate;
+	animation: scale linear infinite 5s normal 2.5s;
 }
 
 .tunnel-container:nth-child(1) > * {
-	border-color: blue;
+	border-color: white;
 }
 .tunnel-container:nth-child(2) > * {
-	border-color: red;
+	border-color: white;
 }
 .tunnel-box {
 	height: 10rem;
@@ -40,10 +46,18 @@
 
 @keyframes scale {
 	0% {
+		opacity: 0;
+		perspective: 0;
 		transform: scale(0);
 	}
-	100% {
+	10% {
+		opacity: 1;
+	}
+	90% {
 		perspective: 10rem;
 		transform: scale(10);
+	}
+	100% {
+		opacity: 0;
 	}
 }
