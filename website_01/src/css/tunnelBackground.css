@@ -55,10 +55,11 @@
 		opacity: 1;
 	}
 	90% {
-		perspective: 10rem;
-		transform: scale(10);
+		opacity: 1;
 	}
 	100% {
 		opacity: 0;
+		perspective: 10rem;
+		transform: scale(10);
 	}
 }
