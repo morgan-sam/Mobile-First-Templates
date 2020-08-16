@@ -50,7 +50,7 @@
 		perspective: 0;
 		transform: scale(0);
 	}
-	10% {
+	50% {
 		opacity: 1;
 	}
 	90% {
