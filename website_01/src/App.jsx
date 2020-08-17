@@ -19,7 +19,8 @@ const App = () => {
 			</div>
 			<div className="section section-two">
 				<div className="section-two-title-container">
-					<h1 className="section-two-title">Lorem ipsum dolor sit amet.</h1>
+					<h1>Lorem ipsum dolor sit amet.</h1>
+					<h1>Rerum nam repellendus ratione omnis tempore rem.</h1>
 				</div>
 			</div>
 			<div className="section section-three">
