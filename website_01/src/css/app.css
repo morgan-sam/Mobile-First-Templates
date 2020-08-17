@@ -99,7 +99,7 @@
 	background-position: center;
 }
 
-.section-three {
+.section:nth-child(3) {
 	color: white;
 	background-size: cover;
 	background-color: black;
