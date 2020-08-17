@@ -4,7 +4,7 @@ import TunnelBackground from './components/TunnelBackground.jsx';
 
 const App = () => {
 	return (
-		<div>
+		<div className="page">
 			<div className="section">
 				<TopNavigation />
 				<div className="main-title-container">
@@ -17,7 +17,7 @@ const App = () => {
 					<div className={'grid-photo'} />
 				</div>
 			</div>
-			<div className="section section-two">
+			<div className="section">
 				<div className="section-two-title-container">
 					<h1>Lorem ipsum dolor sit amet.</h1>
 					<h1>Rerum nam repellendus ratione omnis tempore rem.</h1>

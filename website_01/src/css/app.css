@@ -31,7 +31,7 @@
 	font-size: 3rem;
 }
 
-.section-two {
+.section:nth-child(2) {
 	background: url('https://images.unsplash.com/photo-1592240668172-dd3bbca235d7?q=80&w=1080');
 	background-size: cover;
 }
