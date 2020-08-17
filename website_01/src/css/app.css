@@ -36,7 +36,7 @@
 	background-size: cover;
 }
 
-.section-two-title-container {
+.section:nth-child(2) > .title-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -48,17 +48,17 @@
 	box-sizing: border-box;
 }
 
-.section-two-title-container > * {
+.section:nth-child(2) > .title-container > * {
 	color: white;
 	mix-blend-mode: difference;
 	padding: 2vh 0;
 }
 
-.section-two-title-container > *:first-child {
+.section:nth-child(2) > .title-container > *:first-child {
 	font-size: 3rem;
 }
 
-.section-two-title-container > *:last-child {
+.section:nth-child(2) > .title-container > *:last-child {
 	font-size: 1rem;
 }
 
