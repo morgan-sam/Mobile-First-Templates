@@ -69,3 +69,11 @@ p {
 	background-color: black;
 	overflow: hidden;
 }
+
+.section:nth-child(4) {
+	background-image: linear-gradient(to bottom, rgba(245, 230, 252, 0.7), rgba(155, 33, 70, 0.7)),
+		url(https://images.unsplash.com/photo-1554400928-c233e2fc4d7a?w=1900);
+	color: white;
+	background-size: cover;
+	mix-blend-mode: difference;
+}
