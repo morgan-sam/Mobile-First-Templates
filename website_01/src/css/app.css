@@ -15,7 +15,7 @@
 	flex-direction: column;
 }
 
-.main-title-container {
+.title-container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -41,7 +41,7 @@
 	padding: 1rem 0;
 }
 
-.main-title {
+.title {
 	text-align: center;
 	font-size: 3rem;
 }
