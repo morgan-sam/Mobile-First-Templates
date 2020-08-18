@@ -7,9 +7,7 @@ const App = () => {
 		<div className="page">
 			<div className="section">
 				<TopNavigation />
-				<div className="title-container">
-					<h1 className="title">Lorem ipsum dolor sit amet.</h1>
-				</div>
+				<h1 className="title">Lorem ipsum dolor sit amet.</h1>
 				<div className="photo-grid">
 					<div className={'grid-photo'} />
 					<div className={'grid-photo'} />
@@ -24,15 +22,11 @@ const App = () => {
 				</div>
 			</div>
 			<div className="section">
-				<div className="title-container">
-					<h1 className="title">Lorem ipsum dolor sit amet.</h1>
-				</div>
+				<h1 className="title">Lorem ipsum dolor sit amet.</h1>
 				<TunnelBackground />
 			</div>
 			<div className="section">
-				<div className="title-container">
-					<h1 className="title">Voluptatum consequatur ratione.</h1>
-				</div>
+				<h1 className="title">Voluptatum consequatur ratione.</h1>
 				<div className="text-container">
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, corrupti excepturi explicabo et
