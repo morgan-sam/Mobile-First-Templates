@@ -13,11 +13,11 @@
 	width: 100vw;
 	padding: 4rem;
 	box-sizing: border-box;
+	mix-blend-mode: difference;
 }
 
 .section:nth-child(2) > .title-container > * {
 	color: white;
-	mix-blend-mode: difference;
 	padding: 2vh 0;
 }
 
