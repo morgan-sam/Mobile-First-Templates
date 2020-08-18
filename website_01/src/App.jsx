@@ -16,10 +16,8 @@ const App = () => {
 				</div>
 			</div>
 			<div className="section">
-				<div className="title-container">
-					<h1>Lorem ipsum dolor sit amet.</h1>
-					<h1>Rerum nam repellendus ratione omnis tempore rem.</h1>
-				</div>
+				<h1>Lorem ipsum dolor sit amet.</h1>
+				<h1>Rerum nam repellendus ratione omnis tempore rem.</h1>
 			</div>
 			<div className="section">
 				<h1 className="title">Lorem ipsum dolor sit amet.</h1>
