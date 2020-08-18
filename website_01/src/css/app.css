@@ -61,16 +61,15 @@
 	width: 100%;
 	height: 100%;
 	background-size: cover;
+	background-position: center;
 }
 
 .grid-photo:nth-child(1) {
 	background: url('https://source.unsplash.com/random?flowers');
-	background-position: center;
 }
 
 .grid-photo:nth-child(2) {
 	background: url('https://source.unsplash.com/random?time');
-	background-position: center;
 }
 
 .grid-photo:nth-child(3) {
@@ -80,7 +79,6 @@
 
 .grid-photo:nth-child(4) {
 	background: url('https://source.unsplash.com/random?desk');
-	background-position: center;
 }
 
 .section:nth-child(3) {
