@@ -46,37 +46,6 @@
 	font-size: 3rem;
 }
 
-.section:nth-child(2) {
-	background: url('https://images.unsplash.com/photo-1592240668172-dd3bbca235d7?q=80&w=1080');
-	background-size: cover;
-}
-
-.section:nth-child(2) > .title-container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	height: auto;
-	height: 100vh;
-	width: 100vw;
-	padding: 4rem;
-	box-sizing: border-box;
-}
-
-.section:nth-child(2) > .title-container > * {
-	color: white;
-	mix-blend-mode: difference;
-	padding: 2vh 0;
-}
-
-.section:nth-child(2) > .title-container > *:first-child {
-	font-size: 3rem;
-}
-
-.section:nth-child(2) > .title-container > *:last-child {
-	font-size: 1rem;
-}
-
 .photo-grid {
 	display: grid;
 	width: 100%;
