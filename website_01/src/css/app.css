@@ -26,6 +26,21 @@
 	z-index: 10;
 }
 
+.text-container {
+	align-items: center;
+	justify-content: center;
+	height: auto;
+	width: 100vw;
+	height: auto;
+	padding: 0rem 4rem;
+	box-sizing: border-box;
+	z-index: 10;
+}
+
+.text-container > * {
+	padding: 1rem 0;
+}
+
 .main-title {
 	text-align: center;
 	font-size: 3rem;
