@@ -16,6 +16,7 @@
 	align-items: center;
 	justify-content: center;
 	overflow-x: hidden;
+	background-size: cover;
 }
 
 .title {
