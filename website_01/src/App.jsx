@@ -3,6 +3,9 @@ import TopNavigation from './components/TopNavigation.jsx';
 import TunnelBackground from './components/TunnelBackground.jsx';
 import IconTextCard from './components/IconTextCard.jsx';
 
+const iconTextCardText =
+	'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda perferendis quam recusandae tenetur modi soluta quod, quae fuga et cum!';
+
 const App = () => {
 	return (
 		<div className="page">
@@ -40,34 +43,10 @@ const App = () => {
 			<div className="section">
 				<h1 className="title">Magni, corrupti excepturi explicabo.</h1>
 				<div className="icon-container">
-					<IconTextCard
-						icon={'combine-merge'}
-						title={'Excepturi'}
-						text={
-							'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda perferendis quam recusandae tenetur modi soluta quod, quae fuga et cum!'
-						}
-					/>
-					<IconTextCard
-						icon={'hexagon-shape'}
-						title={'Excepturi'}
-						text={
-							'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda perferendis quam recusandae tenetur modi soluta quod, quae fuga et cum!'
-						}
-					/>
-					<IconTextCard
-						icon={'stack'}
-						title={'Excepturi'}
-						text={
-							'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda perferendis quam recusandae tenetur modi soluta quod, quae fuga et cum!'
-						}
-					/>
-					<IconTextCard
-						icon={'box'}
-						title={'Excepturi'}
-						text={
-							'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda perferendis quam recusandae tenetur modi soluta quod, quae fuga et cum!'
-						}
-					/>
+					<IconTextCard icon={'combine-merge'} title={'Excepturi'} text={iconTextCardText} />
+					<IconTextCard icon={'hexagon-shape'} title={'Excepturi'} text={iconTextCardText} />
+					<IconTextCard icon={'stack'} title={'Excepturi'} text={iconTextCardText} />
+					<IconTextCard icon={'box'} title={'Excepturi'} text={iconTextCardText} />
 				</div>
 			</div>
 		</div>
