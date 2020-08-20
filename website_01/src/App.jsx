@@ -51,7 +51,8 @@ const App = () => {
 				</div>
 			</div>
 			<div className="section">
-				<Form />
+				<Form label={'Email address'} helperText={'Please enter your email address'} />
+				<Form label={'Password'} helperText={'Please enter a password'} />
 			</div>
 		</div>
 	);
