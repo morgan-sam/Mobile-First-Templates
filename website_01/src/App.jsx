@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import TopNavigation from 'components/TopNavigation.jsx';
 import TunnelBackground from 'components/TunnelBackground.jsx';
 import IconTextCard from 'components/IconTextCard.jsx';
