@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import TopNavigation from './components/TopNavigation.jsx';
 import TunnelBackground from './components/TunnelBackground.jsx';
 import IconTextCard from './components/IconTextCard.jsx';
-import Form from './components/Form.jsx';
+import SignUpForm from './components/SignUpForm.jsx';
 
 const iconTextCardText =
 	'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda perferendis quam recusandae tenetur modi soluta quod, quae fuga et cum!';
@@ -52,8 +52,7 @@ const App = () => {
 			</div>
 			<div className="section">
 				<h2 className="title">Sign Up Today</h2>
-				<Form label={'Email address'} helperText={'Please enter your email address'} />
-				<Form label={'Password'} helperText={'Please enter a password'} />
+				<SignUpForm />
 			</div>
 		</div>
 	);
