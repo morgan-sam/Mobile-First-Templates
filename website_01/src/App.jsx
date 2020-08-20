@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import TopNavigation from './components/TopNavigation.jsx';
-import TunnelBackground from './components/TunnelBackground.jsx';
-import IconTextCard from './components/IconTextCard.jsx';
-import SignUpForm from './components/SignUpForm.jsx';
+import TopNavigation from 'components/TopNavigation.jsx';
+import TunnelBackground from 'components/TunnelBackground.jsx';
+import IconTextCard from 'components/IconTextCard.jsx';
+import SignUpForm from 'components/SignUpForm.jsx';
 
 const iconTextCardText =
 	'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda perferendis quam recusandae tenetur modi soluta quod, quae fuga et cum!';

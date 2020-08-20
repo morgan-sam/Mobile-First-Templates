@@ -1,8 +1,8 @@
 import React from 'react';
-import combineMerge from '../img/combine-merge.svg';
-import hexagonShape from '../img/hexagon-shape.svg';
-import stack from '../img/stack.svg';
-import box from '../img/box.svg';
+import combineMerge from 'img/combine-merge.svg';
+import hexagonShape from 'img/hexagon-shape.svg';
+import stack from 'img/stack.svg';
+import box from 'img/box.svg';
 
 const getImg = (imgName) => {
 	switch (imgName) {
