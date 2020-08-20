@@ -51,6 +51,7 @@ const App = () => {
 				</div>
 			</div>
 			<div className="section">
+				<h2 className="title">Sign Up Today</h2>
 				<Form label={'Email address'} helperText={'Please enter your email address'} />
 				<Form label={'Password'} helperText={'Please enter a password'} />
 			</div>
