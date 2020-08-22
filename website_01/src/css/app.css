@@ -25,6 +25,10 @@
 	padding: calc(3rem + 5vw);
 }
 
+p {
+	font-size: calc(1rem + 0.2vw);
+}
+
 .section > p {
 	padding: 1rem 4rem;
 }
