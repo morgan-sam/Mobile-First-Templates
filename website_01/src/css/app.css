@@ -22,7 +22,7 @@
 .title {
 	text-align: center;
 	font-size: 3rem;
-	padding: 4rem;
+	padding: calc(3rem + 5vw);
 }
 
 .section > p {
