@@ -14,7 +14,7 @@
 
 .icon-text-card-title {
 	font-weight: bold;
-	margin: 1rem;
+	margin: calc(0.5rem + 1vh);
 	font-size: calc(0.8rem + 0.5vw);
 }
 
