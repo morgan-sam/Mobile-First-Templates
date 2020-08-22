@@ -22,7 +22,7 @@ const App = () => {
 			</div>
 			<div className="section">
 				<h1>Lorem ipsum dolor sit amet.</h1>
-				<h1>Rerum nam repellendus ratione omnis tempore rem.</h1>
+				<h3>Rerum nam repellendus ratione omnis tempore rem.</h3>
 			</div>
 			<div className="section">
 				<h1 className="title">Lorem ipsum dolor sit amet.</h1>
