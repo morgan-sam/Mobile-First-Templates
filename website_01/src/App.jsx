@@ -12,7 +12,7 @@ const App = () => {
 		<div className="page">
 			<div className="section">
 				<TopNavigation />
-				<h1 className="title">Lorem ipsum dolor sit amet.</h1>
+				<h1 className="page-title">Lorem ipsum dolor sit amet.</h1>
 				<div className="photo-grid">
 					<div className={'grid-photo'} />
 					<div className={'grid-photo'} />

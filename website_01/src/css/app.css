@@ -19,9 +19,15 @@
 	background-size: cover;
 }
 
+.page-title,
 .title {
 	text-align: center;
 	font-size: 3rem;
+}
+.title {
+	padding: 4rem;
+}
+.page-title {
 	padding: calc(3rem + 5vw);
 }
 
