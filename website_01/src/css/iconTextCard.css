@@ -3,6 +3,7 @@
 	flex-direction: column;
 	align-items: center;
 	margin: 0.5rem;
+	max-width: 19rem;
 }
 
 .icon-text-card-icon {
